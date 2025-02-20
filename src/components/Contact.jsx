@@ -6,7 +6,7 @@ import { FaGithubSquare } from 'react-icons/fa';
 function Contact() {
   return (
     <>
-      <div className="flex flex-col items-center mx-6 text-center md:mx-26">
+      <div className="flex flex-col items-center mx-6 text-center md:mx-26 mb-14">
         <h1 className="section-title mt-0">Contact Me</h1>
         <div className="flex gap-12 md:gap-30">
           <a

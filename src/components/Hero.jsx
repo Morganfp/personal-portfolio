@@ -3,10 +3,10 @@ import heroEmoji from '../assets/hero-emoji.png';
 function Hero() {
   return (
     <>
-      <div className="flex mt-24 mx-6 justify-center md:gap-42 md:mt-24">
+      <div className="flex mt-24 mx-6 justify-center md:gap-42 md:mt-28">
         {/* Text */}
         <div className="flex flex-col gap-3.5 items-start md:gap-4">
-          <p className="text-sm md:text-xl">HI THERE 👋 I’M</p>
+          <p className="text-sm md:text-xl">HI THERE 👋 I'M</p>
           <h1 className="text-4xl font-semibold md:text-7xl">
             Morgan <br /> Purcell
           </h1>
@@ -17,11 +17,11 @@ function Hero() {
             I'm a full stack engineer based in San Francisco, CA, with
             experience as a founding engineer.
           </p>
-          <button className="bg-[#00FFBB] text-[#212121] font-bold text-xs py-2 px-4 rounded-2xl md:text-base md:py-3 md:px-6 transform transition-all duration-300 ease-in-out hover:scale-105 hover:bg-[#00CC99]">
-            <a href="#projects" className="cursor-pointer">
+          <a href="#projects">
+            <button className="bg-[#00FFBB] text-[#212121] font-bold text-xs py-2 px-4 rounded-2xl md:text-base md:py-3 md:px-6 transform transition-all duration-300 ease-in-out hover:scale-105 hover:bg-[#00CC99] cursor-pointer">
               My Work
-            </a>
-          </button>
+            </button>
+          </a>
         </div>
         {/* Image */}
         <div>

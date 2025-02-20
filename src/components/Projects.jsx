@@ -156,7 +156,7 @@ function Projects() {
                   </button>
                 ) : null}
               </div>
-              <p className="section-text md:w-[80%]">{proj.about}</p>
+              <p className="section-text w-[90%] md:w-[75%]">{proj.about}</p>
               <div className="flex gap-3 mt-4 mb-2 md:mb-3 ">
                 {proj.tech.map((icon, index) => (
                   <img

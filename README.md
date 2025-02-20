@@ -11,3 +11,7 @@ Check it out at www.morganfpurcell.com
 - React
 - JavaScript (ES6+)
 - TailwindCSS
+
+### Future Enhancements
+
+- Switch png project images to jpg
