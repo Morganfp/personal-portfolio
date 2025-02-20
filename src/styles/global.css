@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+.section-title {
+  @apply text-2xl mb-10 md:mb-16 underline decoration-[#00FFBB] underline-offset-10 md:text-3xl font-bold;
+}
+
+.section-subtitle {
+  @apply text-xl font-semibold md:text-2xl;
+}
+
+.section-text {
+  @apply text-sm md:text-base;
+}
