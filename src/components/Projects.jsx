@@ -34,10 +34,11 @@ function Projects() {
       githubLink: 'https://github.com/Morganfp/movie-hut',
       projectLink: 'https://moviehut.morganfpurcell.com/',
       about:
-        'A movie discovery application that allows users to search for movies by title and view key details such as release year, rating, and cover images. Built with React, this app offers a clean, responsive UI and seamless integration with the Movie Database (TMDB) API.',
+        'A movie discovery platform with user authentication, favorites system, and real-time data. Search for movies, save favorites, watch trailers, and enjoy a seamless experience powered by React, Firebase, and the TMDB API.',
       tech: [
         'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg',
         'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg',
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-plain-wordmark.svg',
       ],
     },
     {
@@ -173,7 +174,7 @@ function Projects() {
                     key={index}
                     src={icon}
                     alt={`Tech Icon ${icon}`}
-                    className="w-8 md:w-10"
+                    className="w-8 md:w-10 hover:scale-140 transition-transform duration-300"
                   />
                 ))}
               </div>
