@@ -11,6 +11,7 @@ import cloudyCastImg from '../assets/projects/cloudy-cast.png';
 import mistyAIImg from '../assets/projects/misty-ai.png';
 import novamindImg from '../assets/projects/novamind.png';
 import frankieAIImg from '../assets/projects/frankie-ai.png';
+import scoutRecruiterImg from '../assets/projects/scout-recruiter.png';
 
 function Projects() {
   const projects = [
@@ -26,6 +27,18 @@ function Projects() {
         'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg',
         'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-plain-wordmark.svg',
         'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-plain-wordmark.svg',
+      ],
+    },
+    {
+      image: scoutRecruiterImg,
+      name: 'Scout Recruiter',
+      githubLink: 'https://github.com/Morganfp/scout-recruiter',
+      about:
+        "A dynamic recruiting outreach assistant built with React, Flask, and OpenAI Assistants. It combines an AI-driven chat interface to gather the user's recruiting goals and preferences, with a collaborative workspace where generated outreach sequences are displayed and can be refined by the user directly in the workspace or via the chat interface.",
+      tech: [
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg',
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg',
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg',
       ],
     },
     {

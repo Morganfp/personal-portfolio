@@ -12,6 +12,10 @@ Check it out at www.morganfpurcell.com
 - JavaScript (ES6+)
 - TailwindCSS
 
+## User Feedback
+
+- Add a down arrow icon inside of "My Work" in the hero section to know it's a button to scroll the user down not to a different site
+
 ### Future Enhancements
 
 - Switch png project images to jpg
